@@ -1,0 +1,109 @@
+﻿@import "variables.scss";
+
+.navbar-brand {
+    background-color: $primary;
+    margin-right: 0 !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    padding-top: 0.55rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+ul ul {
+    list-style-type: none !important;
+}
+
+.py-5 {
+    padding-top: 0 !important;
+}
+
+
+@media (max-width: 1290px) {
+    .hide1290 {
+        display: none;
+    }
+}
+
+.navbar-toggler{
+border: 0!important;
+}
+
+.accordion-toggle .fa {
+    transition: .3s transform ease-in-out;
+}
+
+.accordion-toggle > a[aria-expanded="true"] .fa {
+    transform: rotate(180deg);
+}
+
+.list-inline-item {
+    line-height: 1 !important;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 600px;
+}
+
+.hr-vertical {
+    border: none;
+    border-left: 1px solid;
+    height: 11rem;
+    width: 1px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.form-control {
+    border: 0 !important;
+}
+
+.font-1 {
+    font-size: 0.80rem !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.card {
+    border: 0 !important;
+}
+
+.card-header {
+    border: 0 !important;
+    background-color: transparent !important;
+}
+
+li.nav-item a:hover {
+    text-decoration: overline;
+    text-decoration-color: $primary;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
